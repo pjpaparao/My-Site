@@ -1,0 +1,13 @@
+div{
+        padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px;
+}
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    height: -webkit-fill-available;
+}
+.row .sidebar{
+    border-right: 10px solid lightblue;
+}

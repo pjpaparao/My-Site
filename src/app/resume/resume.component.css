@@ -1,0 +1,23 @@
+
+.resume .pdfViewer .page canvas {
+    margin: 0;
+    display: block;
+    border:1px solid #dcdcdc;
+}
+
+
+ .page .canvasWrapper .textLayer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    opacity: .2;
+    line-height: 1;
+    border: 1px solid black !important;
+}
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    }

@@ -1,0 +1,22 @@
+.sidebar{
+    position: sticky;
+    top: 0px;
+}
+ul {
+    padding:0px;
+    width:100%;
+}
+
+    ul li{
+        margin: 12px 0px;
+
+    }
+    nav ul li a{
+            padding: 0px 0px 0px 12px;
+    }
+
+    .active{
+        color: #707788;
+        font-size: 14px;
+        background-color:  #0a83f5d2;
+    }

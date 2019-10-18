@@ -1,0 +1,11 @@
+<div>
+  <div class="row">
+    <div class="col-md-6">
+      <ul type="none">
+        <li *ngFor="let each of topics">
+          <button (click)="getTutorial(each)" class="btn btn-raise">{{each}}</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

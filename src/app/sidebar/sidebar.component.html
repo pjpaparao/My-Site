@@ -1,0 +1,23 @@
+<div class="sidebar">
+   
+    <nav class="navbar">
+
+        <ul type="none"  >
+        <li class="navbar-brand">
+          <a class="navbar-item">
+            <img width="300" [src]="path">
+          </a>
+        </li>
+
+     
+        <li *ngFor="let page of pages">
+          <a  style="text-decoration: none" routerLink="{{page.routerLink}}"    [style.color]="showActive(page.title)"  (click)="this.util.goToPage(page.routerLink)">
+              <i class="{{page.iClass}} mr-2"></i>
+              <span>{{page.title}}</span>
+             
+          </a>
+        </li>
+      </ul>
+      </nav>
+  
+  </div>

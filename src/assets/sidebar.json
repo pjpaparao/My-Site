@@ -1,0 +1,27 @@
+[
+    {
+        "title": "MyProfile",
+        "routerLink": "/home/profile",
+        "iClass":"fa fa-user fa-1x"
+    },
+    {
+        "title": "Resume",
+        "routerLink": "/home/resume",
+        "iClass":"fa fa-sticky-note-o fa-1x"
+    },
+    {
+        "title": "Tutorial",
+        "routerLink": "/home/tech",
+        "iClass":"fa fa-cogs fa-1x"
+    },
+    {
+        "title": "contact",
+        "routerLink": "/home/contact",
+        "iClass":"fa fa-phone fa-1x"
+    },
+    {
+        "title": "Gallery",
+        "routerLink": "/home/gall",
+        "iClass":"fa fa-file-image-o fa-1x"
+    }
+]
